@@ -14,7 +14,10 @@
     font-weight: 700;
     font-style: normal;
 }
+section .h2{
+    text-align: var(--center);
 
+}
 
 * {
     box-sizing: border-box;
@@ -383,10 +386,15 @@ figcaption {
 
 @media screen and (min-width: 1024px) {
 figcaption {
-    font-size: 32px;
+    font-size: 36px;
     color: var(--secondary-color);
 }
 
+.flex5{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
     .fresque {
         width: 100%;
         height: 800px;
@@ -535,6 +543,7 @@ figcaption {
     .footer-bottom p {
         font-size: 29px;
     }
+    
 
 }
 
