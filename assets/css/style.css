@@ -530,6 +530,11 @@ figcaption {
         font-weight: 500;
         font-size: 29px;
     }
+    .footer-section a {
+        font-family: var(--font);
+        font-weight: 300;
+        font-size: 29px;
+    }
     img.thumbnail {
         height: 100px;
     }
